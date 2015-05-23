@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/diet-0.0.1-SNAPSHOT.war --spring.profiles.active=prod --spring.datasource.heroku-url=$DATABASE_URL
+web: java -Dserver.port=$PORT -jar target/*.war --spring.profiles.active=prod --spring.datasource.heroku-url=$DATABASE_URL
