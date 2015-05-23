@@ -6,11 +6,11 @@ spring:
         active: dev
     datasource:
         dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
-        url: 
-        databaseName: diet
+        url: jdbc:postgresql:test
+        databaseName: test
         serverName: localhost
-        username: diet
-        password: 
+        username: super
+        password: Password1
 
     jpa:
         database-platform: org.hibernate.dialect.PostgreSQL82Dialect
